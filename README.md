@@ -15,8 +15,9 @@ This Discord bot automatically tracks item stock changes in the GrowAGarden game
 
 ### Prerequisites
 - Python 3.8+
-- Discord bot token
-- Windows Server 2022 (or compatible system)
+- Discord packages (BeautifulSoup, discord.py, etc.)
+
+Used on a Raspberry Pi.
 
 ### Setup Steps
 
@@ -73,23 +74,6 @@ Create a channel named `#growagarden` where the bot will post updates
 /sub golden seed, diamond hoe, ruby shovel
 /unsub golden seed
 /mylist
-```
-
-## Windows Server Deployment
-
-### Execution Policy Setup
-1. Open PowerShell as Administrator
-2. Run:
-   ```powershell
-   Set-ExecutionPolicy RemoteSigned -Force
-   ```
-
-### Create Startup Script
-Create `start_bot.bat` with:
-```bat
-@echo off
-call bot-env\Scripts\activate
-python bot.py
 ```
 
 ### Schedule as Task

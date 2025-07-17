@@ -4,7 +4,7 @@ This Discord bot automatically tracks item stock changes in the GrowAGarden game
 
 ## Features
 
-- **Scheduled scraping** every 5 minutes at XX:01, XX:06, etc. (EST)
+- **Scheduled scraping** every 5 minutes at XX:01, XX:06, etc. (EST) [this is a designed buffer for proper stock status]
 - **Item subscriptions** with fuzzy matching
 - **Manual scraping** via `/scrape` command
 - **Automatic retries** for failed scrapes (3 attempts)

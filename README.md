@@ -1,4 +1,4 @@
-# GrowAGarden Stock Tracker Bot
+# GrowAGarden Overseer
 
 This Discord bot automatically tracks item stock changes in the GrowAGarden game and notifies subscribed users when items become available. It features scheduled scraping, manual updates, and robust error handling.
 

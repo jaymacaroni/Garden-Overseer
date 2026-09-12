@@ -2,6 +2,7 @@
 
 This Discord bot automatically tracks item stock changes in the GrowAGarden game and notifies subscribed users when items become available. It features scheduled scraping, manual updates, and robust error handling.
 
+Description made with AI
 ## Features
 
 - **Scheduled scraping** every 5 minutes at XX:01, XX:06, etc. (EST) [this is a designed buffer for proper stock status]
